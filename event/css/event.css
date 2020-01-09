@@ -1,0 +1,136 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-size: cover;
+	filter: alpha(opacity=0);
+}
+
+.department-list{
+    position: fixed;
+    padding: 3px;
+    width: 255px;
+}
+.card-img-top{
+	 overflow: auto;
+	height: 230px;
+	/*border-radius: 20%;*/
+	border-radius: 5px 50px 5px;
+	/*border: 3px solid transparent;*/
+  	box-shadow: 0 0 0 2px #fff;
+	background-size: cover;
+	transition: 1s;
+}
+
+.card-img-top:hover{
+	filter: brightness(50%);
+}
+
+@font-face {
+  font-family: yumaro;
+  src: url(Yumaro.otf);
+}
+
+.spree-team{
+    color: white;
+    font-family:Comic Sans MS;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size:30px;
+}
+
+.team-list{
+	width: 70%; 
+	margin: auto;
+	margin-top: 80px;
+	z-index: 2;	
+}
+
+.card-title{
+	font-weight:bold;
+	text-align: center;
+	padding-top: 30%;
+	padding-bottom: 30%;
+	font-family: Courier;
+	transition: .5s;
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+	
+}
+
+.card-title:hover{
+	color: white;
+	opacity: 1;
+}
+
+.card{
+	display: inline-block;
+	margin: 30px;
+	background: none;
+	width: 16rem;
+	padding: 5px;
+	border: none;
+	position: relative;
+}
+
+img{
+
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 0.9em;
+	padding: 0px;
+	opacity: .5;
+}
+
+.btn:hover{
+	font-weight: bold;
+	opacity: 1;
+}
+
+.active{
+	font-weight: bold;
+	opacity: 1;
+}
+/*
+.card.activeTile {
+
+  	color: #fff;
+	transform: rotateY(180deg);
+ 	transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+*/
+.btnMenu{
+		display: block;
+	}
+#DDMenu{
+	display: none;
+}
+@media(max-width: 600px){
+	.btnMenu{
+		display: none;
+	}
+	#DDMenu{
+		display: inline-block;
+	}
+	.department-list{
+	    display: none;
+	}
+	.team-list{
+		width: 70%;
+		margin:  auto;
+		margin-top: 80px;
+	}
+}
+.team-list h1
+{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-family:Garamond;
+	font-size:60px;
+}

@@ -1,0 +1,13 @@
+* { margin:0; padding:0; }
+
+html, body { width:100vw; height:100vh; } /* just to be sure these are full screen*/
+
+canvas { 
+   overflow: hidden;
+   width:100vw;
+   height:100vh;
+background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #701ba8, #0B1C33, #701ba8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #701ba8, #0B1C33, #701ba8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /*background-image: linear-gradient(to left bottom, #9d9298, #837881, #68606b, #4e4956, #343342, #272b3a, #192432, #0b1d2a, #08202b, #07232a, #0a2629, #0e2828);*/
+}

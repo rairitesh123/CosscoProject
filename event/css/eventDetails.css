@@ -1,0 +1,62 @@
+.container h2{
+font-weight:bold;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	/*background-image: linear-gradient(to right bottom, #262626, #2f3c4a, #19576a, #007479, #009070, #319556, #589736, #7e9600, #9c8300, #b16d0b, #bc572a, #bd4444);*/
+	background-size: cover;
+	background-position: center;
+	height: 95vh;
+}
+
+.container{
+	margin-top: 5vh;
+}
+
+.nav-item, .nav-item:hover{
+	color: #fff;
+}
+
+.tab-content{
+	overflow: auto;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 8px;
+	background-image: url("../img/kalakshtera_light.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+	height: 500px;
+	text-align: justify;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media(max-width: 600px){
+	.tab-content{
+		height: 400px;
+	}
+	body{
+		height: 97vh;
+	}
+
+}
